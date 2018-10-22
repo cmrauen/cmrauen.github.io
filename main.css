@@ -1,0 +1,81 @@
+body, html {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url('img/bg.jpeg');
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  color: #221a32;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  font-size: 2rem;
+  padding: 30px 0;
+}
+
+.modal * {
+  font-size: 2rem;
+}
+
+
+/* NAVIGATION */
+
+.mynavbar {
+  background: #030637;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mynavbar.navbar-dark .nav-link {
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: .5pt;
+}
+
+.mynavbar .navbar-toggler {
+  width: 44px;
+  height: 44px;
+}
+
+section {
+  padding: 50px 0;
+  font-size: 2rem;
+  background-color: hsla(0,0%,100%,.8);
+  margin-bottom: 50px;
+}
+
+svg g {
+  fill: white;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+/* INTRO */
+
+#intro {
+  padding-top: 250px;
+  color: white;
+  background-color: transparent;
+}
+
+#intro h1 {
+  margin: 0 0 50px;
+  width: 100%;
+  max-width: 600px;
+}
+
+#intro h2 {
+  margin: 0 0 100px;
+  width: 100%;
+  max-width: 300px;
+}
+
+#intro svg {
+  width: 100%;
+}
