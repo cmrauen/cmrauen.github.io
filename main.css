@@ -21,6 +21,10 @@ footer {
   font-size: 2rem;
 }
 
+h2 {
+  margin-top: 50px;
+}
+
 
 /* NAVIGATION */
 
@@ -78,4 +82,8 @@ svg g {
 
 #intro svg {
   width: 100%;
+}
+
+.concept-diagram {
+  margin-top: 100px;
 }
