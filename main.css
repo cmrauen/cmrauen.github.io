@@ -103,3 +103,51 @@ svg g {
   margin-top: 30px;
   max-width: 400px;
 }
+
+.grid-item-image {
+  margin-bottom: 20px;
+}
+
+@media all and (min-width: 990px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+      "a b c"
+      "d e f";
+  }
+
+  .grid-item-image {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .grid-item-01 {
+    grid-area: a;
+  }
+  
+  .grid-item-02 {
+    grid-area: d;
+  }
+  
+  .grid-item-03 {
+    grid-area: b;
+  }
+  
+  .grid-item-04 {
+    grid-area: e;
+  }
+  
+  .grid-item-05 {
+    grid-area: c;
+  }
+  
+  .grid-item-06 {
+    grid-area: f;
+  }
+}
+
+.thumb {
+  height: 200px;
+}
