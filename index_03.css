@@ -87,10 +87,19 @@ svg g {
 }
 
 #intro h1 {
-  margin: 0 0 150px 0;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  /* margin: 0 0 150px 0; */
   width: 100%;
-  padding: 0 50px;
+  /* padding: 0 70px; */
   /* max-width: 600px; */
+}
+
+@media all and (min-width: 990px) {
+  #intro h1 {
+    /* padding: 0 80px; */
+    width: 80%;
+  }
 }
 
 #intro h2 {
