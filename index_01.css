@@ -87,9 +87,10 @@ svg g {
 }
 
 #intro h1 {
-  margin: 0 0 50px;
+  margin: 0 0 150px 0;
   width: 100%;
-  max-width: 600px;
+  padding: 0 50px;
+  /* max-width: 600px; */
 }
 
 #intro h2 {
@@ -109,6 +110,11 @@ svg g {
 
 .grid-item-image {
   margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 25px;
 }
 
 @media all and (min-width: 990px) {
@@ -152,9 +158,13 @@ svg g {
 }
 
 .thumb {
-  /* height: 150px; */
-  width: 190px;
+  height: 150px;
+  /* width: 190px; */
   background-color: #c0c2cb;
+}
+
+.gallery {
+  margin-bottom: 10px;
 }
 
 .gallery a {
