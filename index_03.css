@@ -73,6 +73,7 @@ svg g {
   fill: white;
 }
 
+
 .separator {
   margin: 0 5px;
 }
@@ -185,4 +186,12 @@ h4 {
 
 .gallery a.hidden {
   display: none;
+}
+
+.inspirations-container {
+  margin-top: 10px;
+}
+
+#Inspirations g {
+  fill: black;
 }
