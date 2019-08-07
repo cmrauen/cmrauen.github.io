@@ -18,12 +18,67 @@ footer {
   color: rgba(255,255,255,.5);
 }
 
-.modal * {
-  font-size: 2rem;
+h1 {
+  margin: 0 auto;
+  margin-bottom: 150px;
+  width: 100%;
+}
+
+@media all and (min-width: 990px) {
+  h1 {
+    width: 80%;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+#intro {
+  padding-top: 250px;
+  padding-bottom: 80px;
+  color: white;
+  background-color: transparent;
+}
+
+#intro .highlight-headline {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+#intro .highlight-text {
+  font-size: 20px;
+}
+
+.concept-diagram {
+  margin: 30px 0;
+  max-width: 400px;
+}
+
+.video-container {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+.modal * {
+  font-size: 2rem;
+}
 
 /* NAVIGATION */
 
@@ -47,7 +102,6 @@ footer {
 section {
   font-size: 1.6rem;
   background-color: hsla(0,0%,100%,.8);
-  /*margin-bottom: 50px;*/
 }
 
 section p:last-child {
@@ -78,45 +132,9 @@ svg g {
   margin: 0 5px;
 }
 
-/* INTRO */
 
-#intro {
-  padding-top: 250px;
-  padding-bottom: 30px;
-  color: white;
-  background-color: transparent;
-}
 
-#intro h1 {
-  margin: 0 auto;
-  margin-bottom: 150px;
-  /* margin: 0 0 150px 0; */
-  width: 100%;
-  /* padding: 0 70px; */
-  /* max-width: 600px; */
-}
 
-@media all and (min-width: 990px) {
-  #intro h1 {
-    /* padding: 0 80px; */
-    width: 90%;
-  }
-}
-
-#intro h2 {
-  margin: 0 0 100px;
-  width: 100%;
-  max-width: 300px;
-}
-
-#intro svg {
-  width: 100%;
-}
-
-.concept-diagram {
-  margin-top: 30px;
-  max-width: 400px;
-}
 
 .grid-item-image {
   margin-bottom: 20px;
